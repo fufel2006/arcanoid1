@@ -1,1 +1,107 @@
-﻿/.vs/arcanoid1
+﻿# Visual Studio (ВСЁ, что создаёт VS)
+.vs/
+.vscode/
+*.vsidx
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Папки с пакетами и зависимостями (ВАЖНО!)
+packages/
+*.nupkg
+PackageCache/
+packages.config
+package-lock.json
+node_modules/
+
+# Временные файлы IntelliSense
+*.db
+*.opendb
+*.db-shm
+*.db-wal
+ipch/
+*.ipch
+
+# Папки сборки (мусор от компиляции)
+Debug/
+Release/
+x64/
+x86/
+Win32/
+ARM/
+ARM64/
+bin/
+obj/
+out/
+build/
+
+# Файлы проекта VS (лишние для проверки)
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.slnf
+
+# Скомпилированные файлы (НИКОГДА не нужно в Git)
+*.exe
+*.dll
+*.lib
+*.pdb
+*.obj
+*.o
+*.ilk
+*.exp
+*.idb
+*.iobj
+*.ipdb
+*.log
+*.tlog
+*.lastbuildstate
+
+# Файлы отладки
+*.pdb
+*.bsc
+*.sbr
+*.vsp
+*.vspscc
+*.vssscc
+
+# Бэкапы и временные файлы
+*.bak
+*.tmp
+*.temp
+*.cache
+*.lock
+*.~*
+
+# Файлы CMake (если используете)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Файлы пользовательских настроек
+*.user
+*.prefs
+*.config
+*.settings
+
+# Логи
+*.log
+
+# Архивы (не нужны в репозитории)
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Файлы, которые могут содержать пароли или ключи
+*.key
+*.pem
+*.crt
+*.secret
+.env
